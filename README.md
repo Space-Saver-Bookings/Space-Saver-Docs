@@ -114,14 +114,6 @@ Wireframes can also be viewed in higher definition via Figma:
 
 <img src="./wireframes/tm-admin-dash.png" alt="Tablet & mobile admin dashboard wireframes" title="Tablet & mobile admin dashboard wireframes" />
 
-##### Desktop - Parent Dashboard
-
-<img src="./wireframes/d-parent-dash.png" alt="Desktop parent dashboard wireframe" title="Desktop parent dashboard wireframe" />
-
-##### Tablet & Mobile - Parent Dashboard
-
-<img src="./wireframes/tm-parent-dash.png" alt="Tablet & mobile parent dashboard wireframes" title="Tablet & mobile parent dashboard wireframes" />
-
 ##### Desktop - Make a booking / Edit a booking
 
 <img src="./wireframes/d-make-booking.png" alt="Desktop create and edit booking wireframe" title="Desktop create and edit booking wireframe" />
