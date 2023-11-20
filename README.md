@@ -134,9 +134,17 @@ Front-end: <!-- Netlify -->
 ****************
 
 
-### Application Architecture Diagram
+### Application Architecture Diagram (AAD)
 
-<!-- <img src="docs/Application-Architecture-Diagram.jpg" alt="Application Architecture Diagram" title="Application Architecture Diagram" /> -->
+The SpaceSaver app is made up of three components: a front-end, back-end and database.
+
+#### Low Level AAD (Development Framework)
+
+<img src="docs/architecture/1._Low_Level_-_Application_Architecture_Diagram.jpg" alt="Low Level Application Architecture Diagram" title="Low Level Application Architecture Diagram" />
+
+#### High Level AAD 
+
+<img src="docs/architecture/2._High_Level_-_Application_Architecture_Diagram.jpg" alt="High Level Application Architecture Diagram" title="High Level Application Architecture Diagram" />
 
 *********
 
