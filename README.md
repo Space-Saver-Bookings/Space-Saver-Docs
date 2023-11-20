@@ -28,6 +28,7 @@
     - [Flow and navigation](#flow-and-navigation)
     - [Iterations](#iterations)
 - [Planning methodology](#planning-methodology)
+    - [Trello screenshots](#trello-screenshots)
 ****************
 
 ## Introduction
@@ -323,8 +324,7 @@ As Robin, the Sales Lead Generator, I want an intuitive and user-friendly system
 User Story 2:
 As Robin, the Sales Lead Generator, I need enhancements to the existing booking system that prioritise simplicity and user-friendliness for part-time users. This includes features that make it easy to add colleagues to the same booking for occasional collaborative work without complications.
 
-
-*********
+****************
 
 ### Wireframes
 
@@ -334,9 +334,7 @@ Wireframes can also be viewed in higher definition via Figma: <!-- Link here -->
 
 <!-- leaving this link here as an example of how we can add it later
 
-<img src="./wireframes/d-signup.png" alt="Desktop sign up wireframe" title="Desktop sign up wireframe" /> -->
-
-*********
+<img src="docs/wireframes/wireframe.jpg" alt="Desktop Login Page Wireframe" title="Desktop Login Page Wireframe" /> -->
 
 #### Flow and navigation
 
@@ -356,49 +354,89 @@ We will be responsible for marking off the tasks on the Trello as we complete th
 
 We will be working mostly alone, but will pair program some elements using Discord.
 
-The building of the app will be divided into 5 sprints.
+The building of the app can be split into the following:
 
-- **Sprint 1**: Set up front and back-end framework
-- **Sprint 2**: Login functionality
-- **Sprint 3**: 
-- **Sprint 4**: 
-- **Sprint 5**: 
-- **Sprint 6**: 
+**1. Project Overview:**
+   - Define the purpose and scope of the booking application.
+   - Identify key features such as user authentication, booking management, and any other relevant functionalities.
+
+**2. Tech Stack:**
+   - Choose the MERN stack (MongoDB, Express.js, React, Node.js) for development.
+
+**3. Repository Setup:**
+   - Create a new repository for the project on a version control platform like Git (GitHub).
+   - Set up the main branch as 'protected' to ensure stability.
+
+**4. Branching Strategy:**
+   - Adopt the feature branch method.
+   - Create individual branches for each feature or task.
+   - Naming convention: `feature/<feature-name>`.
+
+**5. Pull Request Workflow:**
+   - Developers work on feature branches.
+   - Once a feature is complete, create a pull request to merge it into the main branch.
+   - Assign one reviewer to each pull request.
+
+**6. Continuous Integration (CI):**
+   - Implement CI tools (Jest, SuperTest) to automate testing and ensure code quality before merging.
+
+**7. Project Structure:**
+   - Define the directory structure for the backend (Node.js/Express) and frontend (React) components.
+
+**8. Database Design:**
+   - Plan the database schema for storing user data, booking details, etc.
+   - Set up MongoDB for data storage.
+
+**9. Authentication:**
+   - Implement user authentication using JWT (JSON Web Tokens).
+
+**10. Frontend Development:**
+   - Develop the user interface with React components.
+   - Implement responsive design for better user experience.
+
+**11. Backend Development:**
+   - Set up Express routes for handling booking requests.
+   - Connect with MongoDB for data retrieval and storage.
+
+**12. Testing:**
+   - Write unit tests and integration tests for both frontend and backend components.
+
+**13. Deployment:**
+   - Choose a cloud platform (Heroku) for deployment.
+   - Set up a staging environment for testing before production deployment.
+
+**Sprint Topics:**
+
+**Sprint 1:**
+   - Set up project repository and branching structure.
+   - Implement user authentication.
+
+**Sprint 2:**
+   - Develop the booking management system on the backend.
+   - Begin frontend development for booking features.
+
+**Sprint 3:**
+   - Complete frontend development.
+   - Integrate frontend with backend services.
+
+**Sprint 4:**
+   - Implement testing and continuous integration.
+   - Prepare for deployment.
+
+**Sprint 5:**
+   - Deploy the application to a staging environment.
+   - Conduct thorough testing in the staging environment.
+
+**Sprint 6:**
+   - Address any issues identified in testing.
+   - Finalise deployment to the production environment.
 
 *********
 
-
-### User Stories
-
-
-*********
-
-### Functionality/ Features
-
-The app will have different sets of features for the two target groups. These will be achieved by working in sprints.
-
-**All Users:**
-
-
-**Employees**:
-
-
-**Application Manager**:
-
-
-****************
-
-### Screenshots
+#### Trello Screenshots
 
 Screenshots of our Trello board can be found organised in date order in the Trello-screenshots directory within this repo.
 Please also view the Trello board live here: https://trello.com/b/WOdwJ7cn/t3a2
 
-
-****************
-### Workflow 
-
-We will be working within a Github organisation across 3 repos, one for docs, one for front-end React and back-end node Express. 
-
-For this project we will be using a feature branch workflow as our version control. We will work on feature branches off of a local development branch and make pull requests into the main repo's development branch. Each merge request will be checked by the other partner before approving the merge. An outline of our workflow is shown in the below diagram. 
 
 ****************
