@@ -124,7 +124,7 @@ TODO Should the below header be removed? We can split the above into this sectio
 
 [Back to contents](#contents)
 
-**Front-end**: HTML5, CSS3, REACT.JS, Javascript, JSX, AXIOS, Material-ui.
+**Front-end**: HTML5, CSS3, REACT.JS, Javascript, AXIOS, React Query, Material-ui.
 
 **Back-end**: Node, ExpressJS
 
