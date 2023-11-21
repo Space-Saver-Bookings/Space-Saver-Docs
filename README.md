@@ -373,6 +373,18 @@ Employee Persona 2: Part-time/Casual
 
 [Back to contents](#contents)
 
+### Initial prototyping
+
+Even before discussions and decisions were made to the user stories along with the features and functionality of the application, a prototype wireframe was created as a way to have a quick peek into the future of the final application.
+
+<img src="docs/wifreframes/prototype/img/login-page.jpg" alt="Desktop Login Page Prototype" title="Desktop Login Page Prototype" />
+
+It gave us a rough idea on the applications layout and functionality which gives us a better understanding of what is to come with user experience and gave birth to the main features of the application.
+
+<img src="docs/wifreframes/prototype/img/space-room-view.jpg" alt="Desktop Space-Room View" title="Desktop Space-Room View" />
+
+To view the prototype in more detail, please have a look here:
+
 Wireframes can also be viewed in higher definition via Figma: <!-- Link here -->
 
 ### Desktop - Sign Up/ Landing Page
