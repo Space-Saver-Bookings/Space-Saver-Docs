@@ -383,9 +383,17 @@ It gave us a rough idea on the applications layout and functionality which gives
 
 <img src="docs/wifreframes/prototype/img/space-room-view.jpg" alt="Desktop Space-Room View" title="Desktop Space-Room View" />
 
-To view the prototype in more detail, please have a look here:
+To view the initial prototype in more detail, please have a look here: [Initial Prototype](https://github.com/Space-Saver-Bookings/Space-Saver-Docs/blob/main/docs/wifreframes/prototype/Space_Finder_Prototype.pdf)
 
-Wireframes can also be viewed in higher definition via Figma: <!-- Link here -->
+### Prototyping continued
+
+During our discussions on figuring out the applications features and functionality, a rough prototype more focused on the layout and flow of data of the application was created.
+
+<img src="docs/wifreframes/prototype/img/19-11-2023-DesignPrototype.png" alt="Desktop Space-Room View" title="Desktop Space-Room View" />
+
+It helped us visualise what exactly we were hoping to achieve with the features and how it works functionally, but also taking into consideration the users experience when navigating around the app.
+
+From this prototype alone, we have decided on a sidebar that acts as the menu navigation, main section which serves the main content of the app and a small header for access to user profile.
 
 ### Desktop - Sign Up/ Landing Page
 
@@ -395,15 +403,21 @@ Wireframes can also be viewed in higher definition via Figma: <!-- Link here -->
 
 <img src="docs/wireframes/wireframe.jpg" alt="Desktop Login Page Wireframe" title="Desktop Login Page Wireframe" /> -->
 
+### Final Wireframes
+
+[Back to contents](#contents)
+
+Wireframes can also be viewed in higher definition via Figma: <!-- Link here -->
+
 ### Flow and navigation
 
 [Back to contents](#contents)
 
----
+<!-- ### Iterations
 
-### Iterations
+TODO Hey Ed, just letting you know, the iteration is more implied with the flow of this section of the docs. Let me know what you think :)
 
-[Back to contents](#contents)
+[Back to contents](#contents) -->
 
 ---
 
