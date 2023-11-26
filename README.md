@@ -25,7 +25,8 @@
   <!-- - [Functionality](#functionality) -->
   - [Target audience](#target-audience)
   - [Tech stack](#tech-stack)
-- [Application architecture diagram](#application-architecture-diagram)
+- [Data Flow Diagram (DFD)](#data-flow-diagram-dfd)
+- [Application Architecture Diagram (AAD)](#application-architecture-diagram-aad)
 - [User stories](#user-stories)
   - [Different iterations](#different-iterations)
   - [Final user stories](#final-user-stories)
@@ -49,7 +50,7 @@ In Phase A, the focus was on ideation and strategic planning. This encompassed p
 
 [Back to contents](#contents)
 
-Welcome to SpaceSaver, the solution to your space management challenges. Tired of the complexities of juggling multiple platforms for creating, organizing, and accessing spaces? Look no further. SpaceSaver simplifies your experience with a user-friendly sign-up/log-in system, allowing effortless creation and joining of spaces. No more hassle in managing user access or navigating through intricate booking processes. With secure authentication options, intuitive room organisation, and straightforward booking management, SpaceSaver is your all-in-one tool for seamless and efficient space utilisation. Experience a new era of simplicity and control in space management – welcome to SpaceSaver, where we've streamlined the solution for you.
+Welcome to SpaceSaver, the solution to your space management challenges. Tired of the complexities of juggling multiple platforms for creating, organising, and accessing spaces? Look no further. SpaceSaver simplifies your experience with a user-friendly sign-up/log-in system, allowing effortless creation and joining of spaces. No more hassle in managing user access or navigating through intricate booking processes. With secure authentication options, intuitive room organisation, and straightforward booking management, SpaceSaver is your all-in-one tool for seamless and efficient space utilisation. Experience a new era of simplicity and control in space management – welcome to SpaceSaver, where we've streamlined the solution for you.
 
 ---
 
@@ -83,17 +84,17 @@ Optional feature for Microsoft, Gmail, Apple SSO, or O-Auth logins.
 
 ### Feature 2 (Space management)
 
-Users can create a space and share a the ID for others to access. The creator of a space is automatically designated as the admin. Admins have the authority to create and name rooms within the space.
+Users can create a space and share the ID for others to access. The creator of a space is automatically designated as the admin. Admins have the authority to create, edit and name rooms within the space.
 
 ### Feature 3 (User access management)
 
-Admins can view users in their space, with options to read user details and remove users. Admins can assign permissions, with only one admin allowed at a time, triggering a warning when attempting to change.
+Any user can view users in their space. An admin can assign permissions, with only one admin allowed at a time, triggering a warning when attempting to change.
 
 Optional feature for users to view analytics.
 
 ### Feature 4 (Booking Management)
 
-Users can manage bookings, including creation, viewing, updating, and deleting. A calendar overview displays all space bookings, showcasing the user's name and reserved time. There's an overview of available rooms, and both users and admins can update/delete bookings.
+Users can manage bookings, including creation, viewing, updating, and deleting. A calendar overview displays bookings in a Space, showcasing the user's name and reserved time. There's an overview of available rooms, and both users and admins can update/delete bookings for which they are a part of.
 
 Optional feature for notification of booking.
 
@@ -106,17 +107,13 @@ The dashboard serves as the central hub for all users, featuring:
 - Sub-sections include the user's name, a smaller calendar for accessing the booking space, a quick view of available rooms, and a quick book feature.
 - The header displays user profile details.
 
-<!-- *********
-TODO Should the below header be removed? We can split the above into this section
-
-### Functionality
- -->
-
 ---
 
 ## Target audience
 
 [Back to contents](#contents)
+
+SpaceSaver has been crafted with a growing businesses in mind, especially those undergoing expansion into larger spaces and facing the challenge of organising and managing bookings without an existing system. This application is born out of conversations with our clients, understanding their unique needs. Designed to be scalable for larger offices, SpaceSaver offers a tailored solution for businesses, with the foresight to adapt seamlessly as your workspace grows. Embrace the simplicity of our user-friendly sign-up/log-in system, intuitive space creation, and hassle-free booking management. Make a smooth transition into your expanded workspace with SpaceSaver, where simplicity meets scalability, all rooted in our understanding of the specific requirements of Australian businesses. Welcome to a new era of efficiency in space management.
 
 ---
 
@@ -124,17 +121,17 @@ TODO Should the below header be removed? We can split the above into this sectio
 
 [Back to contents](#contents)
 
-**Front-end**: HTML5, CSS3, REACT.JS, Javascript, AXIOS, React Query, Material-ui.
+**Front-end**: HTML5, CSS3, REACT.JS, Javascript, JSX, Material-ui.
 
 **Back-end**: Node, ExpressJS
 
 **Database**: MongoDB, Mongoose
 
 **Deployment**:
-Back-end: <!-- Horoku -->
-Front-end: <!-- Netlify -->
+Back-end: Horoku
+Front-end: Netlify
 
-**Testing**: <!--  -->
+**Testing**: Jest, SuperTest
 
 **Project-management tools**: Trello, Discord
 
@@ -144,11 +141,13 @@ Front-end: <!-- Netlify -->
 
 ---
 
-## Dataflow diagram
+## Data Flow Diagram (DFD)
 
 [Back to contents](#contents)
 
-<!-- <img src="docs/Data-Flow-Diagram.png" alt="Data Flow Diagram" /> -->
+The SpaceSaver Data Flow Diagram maps out the flow of information between user entities, database documents (users, spaces, rooms, bookings) and processes.
+
+<img src="docs/architecture/3._Data_Flow_Diagram-Data_Flow_Diagram.jpg" alt="Data Flow Diagram" title="Data Flow Diagram" />
 
 ---
 
