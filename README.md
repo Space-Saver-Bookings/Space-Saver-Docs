@@ -1,7 +1,5 @@
 # **Edward Dougherty and Jordan Benjamin T3A2**
 
----
-
 ## **SpaceSaver: MERN full-stack app assignment**
 
 ---
@@ -40,23 +38,19 @@
 
 ## Introduction
 
-[Back to contents](#contents)
-
 In Phase A, the focus was on ideation and strategic planning. This encompassed pinpointing a challenge within a local business and formulating a tailored solution to address their needs. The process involved crafting the app's architecture and delineating data flow through comprehensive diagrams, showcasing the structural framework and outlining the information exchange among processes, entities, and data repositories. Additionally, tasks included shaping user personas and crafting corresponding user stories, creating high-fidelity wireframes, and implementing an agile planning approach throughout the developmental stages.
 
 ---
 
 ## Application Description
 
-[Back to contents](#contents)
-
 Welcome to SpaceSaver, the solution to your space management challenges. Tired of the complexities of juggling multiple platforms for creating, organising, and accessing spaces? Look no further. SpaceSaver simplifies your experience with a user-friendly sign-up/log-in system, allowing effortless creation and joining of spaces. No more hassle in managing user access or navigating through intricate booking processes. With secure authentication options, intuitive room organisation, and straightforward booking management, SpaceSaver is your all-in-one tool for seamless and efficient space utilisation. Experience a new era of simplicity and control in space management – welcome to SpaceSaver, where we've streamlined the solution for you.
+
+[Back to contents](#contents)
 
 ---
 
 ## Purpose
-
-[Back to contents](#contents)
 
 The purpose of SpaceSaver, is to provide users with a comprehensive solution for efficient space management. The primary objectives include:
 
@@ -67,6 +61,8 @@ The purpose of SpaceSaver, is to provide users with a comprehensive solution for
 1. **Empowering Agile Workflows:** With agile planning integrated into the development process, SpaceSaver aims to adapt to changing requirements efficiently. This ensures that the application remains responsive to user needs and evolving business dynamics.
 
 SpaceSaver serves as a versatile tool that goes beyond traditional space management. It provides a holistic solution for businesses seeking to optimise their physical spaces, enhance collaboration, and improve overall operational efficiency. Whether for small teams or large enterprises, SpaceSaver is crafted to redefine the way users interact with and make the most of their workspaces.
+
+[Back to contents](#contents)
 
 ---
 
@@ -181,11 +177,11 @@ The dashboard serves as the central hub for all users and admins using SpaceSave
 
 - Optional feature for users to view analytics.
 
+[Back to contents](#contents)
+
 ---
 
 ## Target audience
-
-[Back to contents](#contents)
 
 SpaceSaver has been developed with a growing businesses in mind, especially those undergoing expansion into larger spaces and facing the challenge of organising and managing bookings without an existing system.
 
@@ -197,11 +193,11 @@ Both management and employees are able to embrace the simplicity of our user-fri
 
 Make a smooth transition into your expanded workspace with SpaceSaver, where simplicity meets scalability, all rooted in our understanding of the specific requirements of Australian businesses. Welcome to a new era of efficiency in space management.
 
+[Back to contents](#contents)
+
 ---
 
 ## Tech stack
-
-[Back to contents](#contents)
 
 **Front-end**:
 
@@ -228,21 +224,21 @@ Make a smooth transition into your expanded workspace with SpaceSaver, where sim
 
 **DevOps**: Git, Github, VS Code
 
+[Back to contents](#contents)
+
 ---
 
 ## Data Flow Diagram (DFD)
-
-[Back to contents](#contents)
 
 The SpaceSaver Data Flow Diagram maps out the flow of information between user entities, database documents (users, spaces, rooms, bookings) and processes.
 
 <img src="docs/architecture/3._Data_Flow_Diagram-Data_Flow_Diagram.jpg" alt="Data Flow Diagram" title="Data Flow Diagram" />
 
+[Back to contents](#contents)
+
 ---
 
 ## Application Architecture Diagram (AAD)
-
-[Back to contents](#contents)
 
 The SpaceSaver app is made up of three components: a front-end, back-end and database.
 
@@ -254,11 +250,11 @@ The SpaceSaver app is made up of three components: a front-end, back-end and dat
 
 <img src="docs/architecture/2._High_Level_-_Application_Architecture_Diagram.jpg" alt="High Level Application Architecture Diagram" title="High Level Application Architecture Diagram" />
 
+[Back to contents](#contents)
+
 ---
 
 ## User stories
-
-[Back to contents](#contents)
 
 In the strategic development of the SpaceSpacer application, the selection of these three personas—Robert, the General Manager; Arlette, the Tech Support Specialist; and Robin, the Sales Lead Generator—was driven by a holistic approach to user-centric design. Robert, as the General Manager, embodies the leadership and decision-making perspective, reflecting the overarching goals of efficient office operations, enhanced team dynamics, and data-driven decision-making. His persona guides the development of features tailored to managerial needs, ensuring SpaceSpacer aligns with high-level organisational objectives.
 
@@ -270,9 +266,9 @@ On the other hand, Arlette and Robin represent distinct user segments within the
 
 <img src="docs/personas/RobinUserPersona.jpg" alt="Robin User Persona" title="Robin User Persona" />
 
-### Different iterations
-
 [Back to contents](#contents)
+
+### Different iterations
 
 #### Initial
 
@@ -390,9 +386,9 @@ Acceptance Criteria:
 - Thorough testing ensures accurate and real-time data representation.
 - Documentation includes guidelines for utilising the app's features.
 
-#### Combined User Stories
-
 [Back to contents](#contents)
+
+#### Combined User Stories
 
 Too many personas led to confusion, so they were combined the personas into 3 main types of users we remade the user stories to suit
 Manager Persona
@@ -417,9 +413,9 @@ As a Tech Support Specialist, I want an integrated and user-friendly system with
 User Story 2:
 As a Tech Support Specialist, I need a streamlined and tech-efficient booking process to maximise my full-time productivity. This includes features that allow for quick and hassle-free room or desk bookings.
 
-#### Final user stories
-
 [Back to contents](#contents)
+
+#### Final user stories
 
 ##### Manager Persona
 
@@ -455,11 +451,11 @@ Employee Persona 2: Part-time/Casual
 
 - As Robin, the Sales Lead Generator, I need enhancements to the existing booking system that prioritise simplicity and user-friendliness for part-time users. This includes features that make it easy to add colleagues to the same booking for occasional collaborative work without complications.
 
+[Back to contents](#contents)
+
 ---
 
 ## Wireframes
-
-[Back to contents](#contents)
 
 ### Initial prototyping
 
@@ -482,6 +478,8 @@ During our discussions on figuring out the applications features and functionali
 It helped us visualise what exactly we were hoping to achieve with the features and how it works functionally, but also taking into consideration the users experience when navigating around the app.
 
 From this prototype alone, we have decided on a sidebar that acts as the menu navigation, main section which serves the main content of the app and a small header for access to user profile.
+
+[Back to contents](#contents)
 
 ### Desktop - Sign Up/ Landing Page
 
@@ -510,8 +508,6 @@ TODO Hey Ed, just letting you know, the iteration is more implied with the flow 
 ---
 
 ## Planning methodology
-
-[Back to contents](#contents)
 
 At the start of this project we had a scrum until we came up with a concept that we liked. We then sketched out a rough architecture and database plan, and created a Trello board with tasks that need to be completed in order to finish the docs. Each task was allocated according to skill and fair share of the work.
 
@@ -615,11 +611,13 @@ The building of the app can be split into the following:
 - Address any issues identified in testing.
 - Finalise deployment to the production environment.
 
-### Trello Screenshots
-
 [Back to contents](#contents)
+
+### Trello Screenshots
 
 Screenshots of our Trello board can be found organised in date order in the Trello-screenshots directory within this repo.
 Please also view the Trello board live here: https://trello.com/b/WOdwJ7cn/t3a2
+
+[Back to contents](#contents)
 
 ---
