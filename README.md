@@ -187,11 +187,15 @@ The dashboard serves as the central hub for all users and admins using SpaceSave
 
 [Back to contents](#contents)
 
-SpaceSaver has been crafted with a growing businesses in mind, especially those undergoing expansion into larger spaces and facing the challenge of organising and managing bookings without an existing system.
+SpaceSaver has been developed with a growing businesses in mind, especially those undergoing expansion into larger spaces and facing the challenge of organising and managing bookings without an existing system.
 
 This application is born out of conversations with our clients, understanding their unique needs. Designed to be scalable for larger offices, SpaceSaver offers a tailored solution for businesses, with the foresight to adapt seamlessly as your workspace grows.
 
-Embrace the simplicity of our user-friendly sign-up/log-in system, intuitive space creation, and hassle-free booking management. Make a smooth transition into your expanded workspace with SpaceSaver, where simplicity meets scalability, all rooted in our understanding of the specific requirements of Australian businesses. Welcome to a new era of efficiency in space management.
+SpaceSaver's current focus is of course providing growing enterprises with a robust office space booking and management system at almost no cost. This provides management and administration teams in organisations access to a tool that our competitors provides at a cost.
+
+Both management and employees are able to embrace the simplicity of our user-friendly sign-up/log-in system, intuitive space creation, and hassle-free booking management.
+
+Make a smooth transition into your expanded workspace with SpaceSaver, where simplicity meets scalability, all rooted in our understanding of the specific requirements of Australian businesses. Welcome to a new era of efficiency in space management.
 
 ---
 
