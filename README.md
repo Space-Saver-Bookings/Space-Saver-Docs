@@ -72,40 +72,114 @@ SpaceSaver serves as a versatile tool that goes beyond traditional space managem
 
 ## Features and Functionality
 
-[Back to contents](#contents)
+SpaceSaver aims to meet the Minimum Viable Product of allowing users to login to the application in order for them to either create or join a space where bookings will be made for their desired spot in their respective office space.
 
-### Feature 1 (Sign-up/ Log-in system)
+This is the core of the application, and the features listed below meets the requirements which provides users with a comprehensive solution for efficient space management.
 
-Users can sign up as a regular user. They can create or join a space within the app.
+### Feature 1 (Account system)
 
-Authentication is internally handled using JWT, involving a straightforward username and password process. The log-in period aligns with the typical workday, spanning 8-12 hours.
+Users must have a SpaceSaver account to log-in and gain access to the application. Users will be prompted to sign-up and create an account if they haven't done so.
 
-Optional feature for Microsoft, Gmail, Apple SSO, or O-Auth logins.
+#### Functionality
+
+##### User Data
+
+User data is required for the rest of application features to work as expected, this is for the sole reason that user data is stored in each user account and other features depends on this user data.
+
+For example, user data is necessary for an admin to know which users are in each space or room for example which provides admins user access management. This data is also especially important in the booking feature of the application, where keeping track which user bookings dictates the behaviour and integrity of the application.
+
+##### Authentication
+
+Authentication comes as an important functionality of this feature with it being internally handled using JWT, involving a straightforward username and password process. The log-in period aligns with the typical workday, spanning 8-12 hours for extra security measure.
+
+#### Nice to have
+
+- Optional feature for Microsoft, Gmail, Apple SSO, or O-Auth logins.
 
 ### Feature 2 (Space management)
 
-Users can create a space and share the ID for others to access. The creator of a space is automatically designated as the admin. Admins have the authority to create, edit and name rooms within the space.
+SpaceSaver allows for flexible space management where all users are able to create and join a space which allows for different user permissions.
+
+#### Functionality
+
+##### Space creation and sharing
+
+- All users are able to create a space.
+- The creator of that space is able to share the space ID for other users to access and join.
+
+##### Room creation
+
+Admins have the authority to create, edit and name rooms within that space.
+
+##### Administrative control
+
+- The creator of a space is automatically designated as the admin. Granting them the ability to edit the space.
+- Admins are also granted user access management, which is a feature in and on itself.
+
+#### Nice to have
+
+- This flexibility of space management for all users is perfect for this current MVP as mentioned it provides flexibility which allows for progressive scaling. However, in the future a much more robust and defined user access management with clear user role based access control.
 
 ### Feature 3 (User access management)
 
-Any user can view users in their space. An admin can assign permissions, with only one admin allowed at a time, triggering a warning when attempting to change.
+SpaceSaver allows all users access to information of other users within a space whilst an Admin is granted permissions for full control of user access management.
 
-Optional feature for users to view analytics.
+#### Functionality
+
+##### User information and invitation
+
+- All users have access to view other users in the respective spaces they joined and rooms they're booked in.
+- Non-Admin users are only allowed to invite other users to a room. NOTE: what about spaces? See trello update.
+
+##### User management
+
+An Admin is able to add and remove users willingly from a space and room.
+
+##### Admin control
+
+- Only one admin allowed at a time per space.
+- An admin is able to provide other users their administrative permissions, stripping them off theirs, this triggers a warning when attempting to change roles.
+
+#### Nice to have
+
+- Notifying users when they have either added or removed from a space.
 
 ### Feature 4 (Booking Management)
 
-Users can manage bookings, including creation, viewing, updating, and deleting. A calendar overview displays bookings in a Space, showcasing the user's name and reserved time. There's an overview of available rooms, and both users and admins can update/delete bookings for which they are a part of.
+One of if not SpaceSaver's most important feature in this current MVP implementation, where all users are able to manage bookings of rooms within spaces.
 
-Optional feature for notification of booking.
+#### Functionality
+
+##### Bookings
+
+Users are able to create, view, update, delete and even invite other users to a booking. This allows users with full individual booking management.
+
+##### Calendar integration
+
+- A calendar overview displays bookings within a Space, showcasing available rooms.
+- Both users and admins can update/delete bookings for which they are a part of.
+
+#### Nice to have
+
+- Notification of bookings.
 
 ### Feature 5 (Dashboard)
 
-The dashboard serves as the central hub for all users, featuring:
+The dashboard serves as the central hub for all users and admins using SpaceSaver, it is the interface of the application itself. Similar functionality and UI will be prevalent for all pages with diferences being in they layout and content itself.
 
+#### Functionality
+
+##### Three main sections
+
+- A header to display current page and user profile details.
 - A sidebar for easy navigation to different app sections: Home, Booking, Spaces, Rooms, Settings.
-- The main section comprises the core dashboard content.
+- A main section which comprises the core dashboard content.
+
 - Sub-sections include the user's name, a smaller calendar for accessing the booking space, a quick view of available rooms, and a quick book feature.
-- The header displays user profile details.
+
+#### Nice to have
+
+- Optional feature for users to view analytics.
 
 ---
 
@@ -113,7 +187,11 @@ The dashboard serves as the central hub for all users, featuring:
 
 [Back to contents](#contents)
 
-SpaceSaver has been crafted with a growing businesses in mind, especially those undergoing expansion into larger spaces and facing the challenge of organising and managing bookings without an existing system. This application is born out of conversations with our clients, understanding their unique needs. Designed to be scalable for larger offices, SpaceSaver offers a tailored solution for businesses, with the foresight to adapt seamlessly as your workspace grows. Embrace the simplicity of our user-friendly sign-up/log-in system, intuitive space creation, and hassle-free booking management. Make a smooth transition into your expanded workspace with SpaceSaver, where simplicity meets scalability, all rooted in our understanding of the specific requirements of Australian businesses. Welcome to a new era of efficiency in space management.
+SpaceSaver has been crafted with a growing businesses in mind, especially those undergoing expansion into larger spaces and facing the challenge of organising and managing bookings without an existing system.
+
+This application is born out of conversations with our clients, understanding their unique needs. Designed to be scalable for larger offices, SpaceSaver offers a tailored solution for businesses, with the foresight to adapt seamlessly as your workspace grows.
+
+Embrace the simplicity of our user-friendly sign-up/log-in system, intuitive space creation, and hassle-free booking management. Make a smooth transition into your expanded workspace with SpaceSaver, where simplicity meets scalability, all rooted in our understanding of the specific requirements of Australian businesses. Welcome to a new era of efficiency in space management.
 
 ---
 
@@ -121,17 +199,24 @@ SpaceSaver has been crafted with a growing businesses in mind, especially those 
 
 [Back to contents](#contents)
 
-**Front-end**: HTML5, CSS3, REACT.JS, Javascript, JSX, Material-ui.
+**Front-end**:
 
-**Back-end**: Node, ExpressJS
+- React.js with React Query, & React Hook Form
+- Tailwind & Material-ui for styling
 
-**Database**: MongoDB, Mongoose
+**Back-end**: Node with ExpressJS
+
+**Database**: MongoDB with Mongoose
 
 **Deployment**:
-Back-end: Horoku
-Front-end: Netlify
 
-**Testing**: Jest, SuperTest
+- Front-end: Netlify
+- Back-end: Heroku
+
+**Testing**:
+
+- Jest
+- SuperTest
 
 **Project-management tools**: Trello, Discord
 
