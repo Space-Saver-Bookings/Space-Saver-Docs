@@ -6,32 +6,32 @@
 
 ### Client:
 
--   Deployed Staging App:
--   Deployed Production:
+- Deployed Staging App:
+- Deployed Production:
 
 ### Server:
 
--   Deployed Staging App:
--   Deployed Production:
+- Deployed Staging App:
+- Deployed Production:
 
 ### Contents
 
--   [Introduction](#introduction)
--   [Application Description](#application-description)
-    -   [Purpose](#purpose)
-    -   [Features and Functionality ](#features-and-functionality)
-    -   [Target audience](#target-audience)
-    -   [Tech stack](#tech-stack)
--   [Data Flow Diagram (DFD)](#data-flow-diagram-dfd)
--   [Application Architecture Diagram (AAD)](#application-architecture-diagram-aad)
--   [User stories](#user-stories)
-    -   [Different iterations](#different-iterations)
-    -   [Final user stories](#final-user-stories)
--   [Wireframes](#wireframes)
-    -   [Flow and navigation](#flow-and-navigation)
-    -   [High fidelity wireframes](#high-fidelity-wireframes)
--   [Planning methodology](#planning-methodology)
-    -   [Trello screenshots](#trello-screenshots)
+- [Introduction](#introduction)
+- [Application Description](#application-description)
+  - [Purpose](#purpose)
+  - [Features and Functionality ](#features-and-functionality)
+  - [Target audience](#target-audience)
+  - [Tech stack](#tech-stack)
+- [Data Flow Diagram (DFD)](#data-flow-diagram-dfd)
+- [Application Architecture Diagram (AAD)](#application-architecture-diagram-aad)
+- [User stories](#user-stories)
+  - [Different iterations](#different-iterations)
+  - [Final user stories](#final-user-stories)
+- [Wireframes](#wireframes)
+  - [Flow and navigation](#flow-and-navigation)
+  - [High fidelity wireframes](#high-fidelity-wireframes)
+- [Planning methodology](#planning-methodology)
+  - [Trello screenshots](#trello-screenshots)
 
 ---
 
@@ -89,7 +89,7 @@ Authentication comes as an important functionality of this feature with it being
 
 #### Nice to have
 
--   Optional feature for Microsoft, Gmail, Apple SSO, or O-Auth logins.
+- Optional feature for Microsoft, Gmail, Apple SSO, or O-Auth logins.
 
 ### Feature 2 (Space management)
 
@@ -99,8 +99,8 @@ SpaceSaver allows for flexible space management where all users are able to crea
 
 ##### Space creation and sharing
 
--   All users are able to create a space.
--   The creator of that space is able to share the space ID for other users to access and join.
+- All users are able to create a space.
+- The creator of that space is able to share the space ID for other users to access and join.
 
 ##### Room creation
 
@@ -108,12 +108,12 @@ Admins have the authority to create, edit and name rooms within that space.
 
 ##### Administrative control
 
--   The creator of a space is automatically designated as the admin. Granting them the ability to edit the space.
--   Admins are also granted user access management, which is a feature in and on itself.
+- The creator of a space is automatically designated as the admin. Granting them the ability to edit the space.
+- Admins are also granted user access management, which is a feature in and on itself.
 
 #### Nice to have
 
--   This flexibility of space management for all users is perfect for this current MVP as mentioned it provides flexibility which allows for progressive scaling. However, in the future a much more robust and defined user access management with clear user role based access control.
+- This flexibility of space management for all users is perfect for this current MVP as mentioned it provides flexibility which allows for progressive scaling. However, in the future a much more robust and defined user access management with clear user role based access control.
 
 ### Feature 3 (User access management)
 
@@ -123,8 +123,8 @@ SpaceSaver allows all users access to information of other users within a space 
 
 ##### User information and invitation
 
--   All users have access to view other users in the respective spaces they joined and rooms they're booked in.
--   Non-Admin users are only allowed to invite other users to a room.
+- All users have access to view other users in the respective spaces they joined and rooms they're booked in.
+- Non-Admin users are only allowed to invite other users to a room.
 
 ##### User management
 
@@ -132,12 +132,12 @@ An Admin is able to add and remove users willingly from a space and room.
 
 ##### Admin control
 
--   Only one admin allowed at a time per space.
--   An admin is able to provide other users their administrative permissions, stripping them off theirs, this triggers a warning when attempting to change roles.
+- Only one admin allowed at a time per space.
+- An admin is able to provide other users their administrative permissions, stripping them off theirs, this triggers a warning when attempting to change roles.
 
 #### Nice to have
 
--   Notifying users when they have either added or removed from a space.
+- Notifying users when they have either added or removed from a space.
 
 ### Feature 4 (Booking Management)
 
@@ -151,12 +151,12 @@ Users are able to create, view, update, delete and even invite other users to a 
 
 ##### Calendar integration
 
--   A calendar overview displays bookings within a Space, showcasing available rooms.
--   Both users and admins can update/delete bookings for which they are a part of.
+- A calendar overview displays bookings within a Space, showcasing available rooms.
+- Both users and admins can update/delete bookings for which they are a part of.
 
 #### Nice to have
 
--   Notification of bookings.
+- Notification of bookings.
 
 ### Feature 5 (Dashboard)
 
@@ -166,15 +166,15 @@ The dashboard serves as the central hub for all users and admins using SpaceSave
 
 ##### Three main sections
 
--   A header to display current page and user profile details.
--   A sidebar for easy navigation to different app sections: Home, Booking, Spaces, Rooms, Settings.
--   A main section which comprises the core dashboard content.
+- A header to display current page and user profile details.
+- A sidebar for easy navigation to different app sections: Home, Booking, Spaces, Rooms, Settings.
+- A main section which comprises the core dashboard content.
 
--   Sub-sections include the user's name, a smaller calendar for accessing the booking space, a quick view of available rooms, and a quick book feature.
+- Sub-sections include the user's name, a smaller calendar for accessing the booking space, a quick view of available rooms, and a quick book feature.
 
 #### Nice to have
 
--   Optional feature for users to view analytics.
+- Optional feature for users to view analytics.
 
 [Back to contents](#contents)
 
@@ -200,42 +200,42 @@ Make a smooth transition into your expanded workspace with SpaceSaver, where sim
 
 **Front-end**:
 
--   React.js with React Query, & React Hook Form
--   Tailwind & Material-ui for styling
+- React.js with React Query, & React Hook Form
+- Tailwind & Material-ui for styling
 
 **Back-end**:
 
--   Node with ExpressJS
+- Node with ExpressJS
 
 **Database**:
 
--   MongoDB with Mongoose
+- MongoDB with Mongoose
 
 **Deployment**:
 
--   Front-end: Netlify
--   Back-end: Heroku
+- Front-end: Netlify
+- Back-end: Heroku
 
 **Testing**:
 
--   Jest
--   SuperTest
+- Jest
+- SuperTest
 
 **Project-management tools**:
 
--   Trello
--   Discord
+- Trello
+- Discord
 
 **Utilities**:
 
--   Draw.io
--   Figma
+- Draw.io
+- Figma
 
 **DevOps**:
 
--   Git
--   Github
--   VS Code
+- Git
+- Github
+- VS Code
 
 [Back to contents](#contents)
 
@@ -301,13 +301,13 @@ As Jack, I want an all-in-one system/app for booking spaces, so I can easily che
 
 Acceptance Criteria:
 
--   The system/app should provide a clear interface for checking room or desk availabilities.
--   Booking a room or desk should be a straightforward process, requiring minimal steps.
+- The system/app should provide a clear interface for checking room or desk availabilities.
+- Booking a room or desk should be a straightforward process, requiring minimal steps.
 
 Definition of Done:
 
--   The system/app has been developed and thoroughly tested.
--   User feedback has been considered and incorporated for improving the user interface.
+- The system/app has been developed and thoroughly tested.
+- User feedback has been considered and incorporated for improving the user interface.
 
 ##### User Story - Persona 2: Jill (37) Senior Software Developer
 
@@ -315,24 +315,24 @@ As Jill, I want a user-friendly booking system with emphasis on UX/UI, so I can 
 
 Acceptance Criteria:
 
--   The booking system should have an intuitive and visually appealing user interface.
--   Jill should be able to find and book a room within a few clicks.
+- The booking system should have an intuitive and visually appealing user interface.
+- Jill should be able to find and book a room within a few clicks.
 
 Definition of Done:
 
--   The booking system has been developed and tested for user-friendliness.
--   Jill has tested the system and provided feedback, which has been incorporated.
--   Documentation includes guidelines for users.
+- The booking system has been developed and tested for user-friendliness.
+- Jill has tested the system and provided feedback, which has been incorporated.
+- Documentation includes guidelines for users.
 
 As Jill, I want the ability to add my pair programmer under the same booking, simplifying the collaboration process.
 
 Acceptance Criteria:
 
--   The booking system should allow Jill to easily include her pair programmer when making a booking.
+- The booking system should allow Jill to easily include her pair programmer when making a booking.
 
 Definition of Done:
 
--   The functionality for adding multiple users under the same booking has been successfully implemented.
+- The functionality for adding multiple users under the same booking has been successfully implemented.
 
 ##### User Story - Persona 3: Henrietta (29) Marketing Associate
 
@@ -340,13 +340,13 @@ As Henrietta, I want an individual pin-based access for immediate room bookings,
 
 Acceptance Criteria:
 
--   The system should provide a pin-based access feature for immediate room bookings.
--   Henrietta should be able to check room availability instantly without logging in
+- The system should provide a pin-based access feature for immediate room bookings.
+- Henrietta should be able to check room availability instantly without logging in
 
 Definition of Done:
 
--   The pin-based access feature is successfully implemented and tested.
--   User testing has been completed, and any necessary adjustments have been made.
+- The pin-based access feature is successfully implemented and tested.
+- User testing has been completed, and any necessary adjustments have been made.
 
 Employer/Management User Stories
 
@@ -356,22 +356,22 @@ As Emily, I want the ability to manage users and their access to spaces.
 
 Acceptance Criteria:
 
--   The booking system should provide functionality for user management and access control.
-    Definition of Done:
--   User management features are successfully implemented and tested.
--   Emily has provided feedback, and necessary adjustments have been made.
--   Documentation includes instructions for administrators on user management.
+- The booking system should provide functionality for user management and access control.
+  Definition of Done:
+- User management features are successfully implemented and tested.
+- Emily has provided feedback, and necessary adjustments have been made.
+- Documentation includes instructions for administrators on user management.
 
 As Emily, I want features for space availability signalling and potentially a built-in chat functionality for improved communication.
 
 Acceptance Criteria:
 
--   The booking system should have features to signal space availability.
--   If a chat functionality is implemented, it should provide seamless in-app communication.
-    Definition of Done:
--   Space availability signalling features are successfully integrated and tested.
--   If applicable, the chat functionality is implemented, tested, and user-friendly.
-    Documentation includes guidelines for utilising space signalling and chat features.
+- The booking system should have features to signal space availability.
+- If a chat functionality is implemented, it should provide seamless in-app communication.
+  Definition of Done:
+- Space availability signalling features are successfully integrated and tested.
+- If applicable, the chat functionality is implemented, tested, and user-friendly.
+  Documentation includes guidelines for utilising space signalling and chat features.
 
 ##### User Story - Persona 5: Aisha (39) Project Manager
 
@@ -379,11 +379,11 @@ As Aisha, I want calendar integration in the current booking system, allowing me
 
 Acceptance Criteria:
 
--   The booking system should be integrated with a calendar, providing real-time information about bookings.
-    Definition of Done:
--   Calendar integration is successfully implemented and tested.
--   The system seamlessly syncs with Aisha's calendar for efficient team organisation.
-    Documentation includes instructions for utilising the calendar integration.
+- The booking system should be integrated with a calendar, providing real-time information about bookings.
+  Definition of Done:
+- Calendar integration is successfully implemented and tested.
+- The system seamlessly syncs with Aisha's calendar for efficient team organisation.
+  Documentation includes instructions for utilising the calendar integration.
 
 ##### User Story - Persona 6: Muhammad (53) Team Leader
 
@@ -391,11 +391,11 @@ As Muhammad, I want an automated notification system, so my team can receive tim
 
 Acceptance Criteria:
 
--   The booking system should send automated notifications to team members regarding booking details.
-    Definition of Done:
--   The automated notification system is successfully implemented and tested.
--   Notifications are delivered accurately and in a timely manner.
--   Documentation includes guidelines for setting up and managing notification preferences.
+- The booking system should send automated notifications to team members regarding booking details.
+  Definition of Done:
+- The automated notification system is successfully implemented and tested.
+- Notifications are delivered accurately and in a timely manner.
+- Documentation includes guidelines for setting up and managing notification preferences.
 
 ##### User Story - Persona 7: Deo (28) Team Coordinator
 
@@ -403,11 +403,11 @@ As Deo, I want a user-friendly app for real-time insights into team resource usa
 
 Acceptance Criteria:
 
--   The app should provide a user-friendly interface for accessing real-time insights into team resource usage.
-    Definition of Done:
--   The app is successfully developed and tested for user-friendliness.
--   Thorough testing ensures accurate and real-time data representation.
--   Documentation includes guidelines for utilising the app's features.
+- The app should provide a user-friendly interface for accessing real-time insights into team resource usage.
+  Definition of Done:
+- The app is successfully developed and tested for user-friendliness.
+- Thorough testing ensures accurate and real-time data representation.
+- Documentation includes guidelines for utilising the app's features.
 
 [Back to contents](#contents)
 
@@ -444,11 +444,11 @@ As a Tech Support Specialist, I need a streamlined and tech-efficient booking pr
 
 **User Story 1:**
 
--   As Robert, the General Manager, I want a comprehensive office space management tool that streamlines the booking process, allowing for increased efficiency and optimal resource allocation. This includes features for space availability signalling and real-time data insights.
+- As Robert, the General Manager, I want a comprehensive office space management tool that streamlines the booking process, allowing for increased efficiency and optimal resource allocation. This includes features for space availability signalling and real-time data insights.
 
 **User Story 2:**
 
--   As Robert, the General Manager, I need an enhanced booking system with calendar functionality to improve team organisation. This will ensure that team members have clear visibility into booking details, locations, and times, facilitating better communication and coordination.
+- As Robert, the General Manager, I need an enhanced booking system with calendar functionality to improve team organisation. This will ensure that team members have clear visibility into booking details, locations, and times, facilitating better communication and coordination.
 
 **User Story 3:**
 
@@ -462,17 +462,17 @@ As Arlette, the Tech Support Specialist, I want an integrated and user-friendly 
 
 **User Story 2:**
 
--   As Arlette, the Tech Support Specialist, I need a streamlined and tech-efficient booking process to maximise my full-time productivity. This includes features that allow for quick and hassle-free room or desk bookings.
+- As Arlette, the Tech Support Specialist, I need a streamlined and tech-efficient booking process to maximise my full-time productivity. This includes features that allow for quick and hassle-free room or desk bookings.
 
 Employee Persona 2: Part-time/Casual
 
 **User Story 1:**
 
--   As Robin, the Sales Lead Generator, I want an intuitive and user-friendly system that allows me to quickly find and book a room for collaborative work during occasional use. This will ensure a seamless experience and enhance my overall workflow.
+- As Robin, the Sales Lead Generator, I want an intuitive and user-friendly system that allows me to quickly find and book a room for collaborative work during occasional use. This will ensure a seamless experience and enhance my overall workflow.
 
 **User Story 2:**
 
--   As Robin, the Sales Lead Generator, I need enhancements to the existing booking system that prioritise simplicity and user-friendliness for part-time users. This includes features that make it easy to add colleagues to the same booking for occasional collaborative work without complications.
+- As Robin, the Sales Lead Generator, I need enhancements to the existing booking system that prioritise simplicity and user-friendliness for part-time users. This includes features that make it easy to add colleagues to the same booking for occasional collaborative work without complications.
 
 [Back to contents](#contents)
 
@@ -513,7 +513,6 @@ In our exploration of conceptualising the visual aspects and user interactions f
 The low-fidelity wireframes served as a rudimentary blueprint, emphasising basic layouts and rough sketches of the user interface. It was instrumental in laying the groundwork for subsequent design decisions, providing a clear visualisation of the spatial arrangement of various components. This phase allowed us to swiftly iterate through design concepts, fostering a collaborative understanding of the application's core structure.
 
 Key considerations during this stage encompassed the placement of essential features, the hierarchy of information, and the overall navigation flow. The simplicity of the low-fidelity wireframes facilitated quick adjustments and refinements, ensuring a solid foundation for the more detailed stages of the design process.
-
 
 #### Desktop - Sign Up/ Landing Page
 
@@ -557,7 +556,6 @@ Key considerations during this stage encompassed the placement of essential feat
 
 [Back to contents](#contents)
 
-
 ### High fidelity wireframes
 
 Building upon the insights gained from the low-fidelity wireframes, we progressed into the creation of high-fidelity versions that delved into the finer details of the application's visual aesthetics and interactive elements.
@@ -578,7 +576,6 @@ Wireframes can also be viewed in higher definition via Figma: [figma.com/SpaceSa
 
 [Back to contents](#contents)
 
-
 ---
 
 ## Planning methodology
@@ -593,114 +590,114 @@ The development of the app can be segmented into the following phases:
 
 **1. Project Overview:**
 
--   Define the purpose and scope of the booking application.
--   Identify key features such as user authentication, booking management, and any other relevant functionalities.
+- Define the purpose and scope of the booking application.
+- Identify key features such as user authentication, booking management, and any other relevant functionalities.
 
 **2. Tech Stack:**
 
--   Choose the MERN stack (MongoDB, Express.js, React, Node.js) for development.
+- Choose the MERN stack (MongoDB, Express.js, React, Node.js) for development.
 
 **3. Repository Setup:**
 
--   Create a new repository for the project on a version control platform like Git (GitHub).
--   Set up the main branch as 'protected' to ensure stability.
+- Create a new repository for the project on a version control platform like Git (GitHub).
+- Set up the main branch as 'protected' to ensure stability.
 
 **4. Branching Strategy:**
 
--   Adopt the feature branch method.
--   Create individual branches for each feature or task.
--   Naming convention: `feature/<feature-name>`.
+- Adopt the feature branch method.
+- Create individual branches for each feature or task.
+- Naming convention: `feature/<feature-name>`.
 
 **5. Pull Request Workflow:**
 
--   Developers work on feature branches.
--   Once a feature is complete, create a pull request to merge it into the main branch.
--   Assign one reviewer to each pull request.
+- Developers work on feature branches.
+- Once a feature is complete, create a pull request to merge it into the main branch.
+- Assign one reviewer to each pull request.
 
 **6. Continuous Integration (CI):**
 
--   Implement CI tools (Jest, SuperTest) to automate testing and ensure code quality before merging.
+- Implement CI tools (Jest, SuperTest) to automate testing and ensure code quality before merging.
 
 **7. Project Structure:**
 
--   Define the directory structure for the backend (Node.js/Express) and frontend (React) components.
+- Define the directory structure for the backend (Node.js/Express) and frontend (React) components.
 
 **8. Database Design:**
 
--   Plan the database schema for storing user data, booking details, etc.
--   Set up MongoDB for data storage.
+- Plan the database schema for storing user data, booking details, etc.
+- Set up MongoDB for data storage.
 
 **9. Authentication:**
 
--   Implement user authentication using JWT (JSON Web Tokens).
+- Implement user authentication using JWT (JSON Web Tokens).
 
 **10. Frontend Development:**
 
--   Develop the user interface with React components.
--   Implement responsive design for better user experience.
+- Develop the user interface with React components.
+- Implement responsive design for better user experience.
 
 **11. Backend Development:**
 
--   Set up Express routes for handling booking requests.
--   Connect with MongoDB for data retrieval and storage.
+- Set up Express routes for handling booking requests.
+- Connect with MongoDB for data retrieval and storage.
 
 **12. Testing:**
 
--   Write unit tests and integration tests for both frontend and backend components.
+- Write unit tests and integration tests for both frontend and backend components.
 
 **13. Deployment:**
 
--   Choose a cloud platform (Heroku) for deployment.
--   Set up a staging environment for testing before production deployment.
+- Choose a cloud platform (Heroku) for deployment.
+- Set up a staging environment for testing before production deployment.
 
 **Sprint Topics:**
 
 **Sprint 1: Project Setup and Core Structure**
 
--   **Repository Setup:**
-    -   Create a new repository for the project on a version control platform like Git (GitHub).
-    -   Set up the main branch as 'protected' to ensure stability.
--   **Branching Strategy:**
-    -   Adopt the feature branch method.
-    -   Create individual branches for each feature or task.
-    -   Naming convention: `feature/<feature-name>`.
--   **Pull Request Workflow:**
-    -   Developers work on feature branches.
-    -   Once a feature is complete, create a pull request to merge it into the main branch.
-    -   Assign one reviewer to each pull request.
--   **Continuous Integration (CI):**
-    -   Implement CI tools (Jest, SuperTest) to automate testing and ensure code quality before merging.
+- **Repository Setup:**
+  - Create a new repository for the project on a version control platform like Git (GitHub).
+  - Set up the main branch as 'protected' to ensure stability.
+- **Branching Strategy:**
+  - Adopt the feature branch method.
+  - Create individual branches for each feature or task.
+  - Naming convention: `feature/<feature-name>`.
+- **Pull Request Workflow:**
+  - Developers work on feature branches.
+  - Once a feature is complete, create a pull request to merge it into the main branch.
+  - Assign one reviewer to each pull request.
+- **Continuous Integration (CI):**
+  - Implement CI tools (Jest, SuperTest) to automate testing and ensure code quality before merging.
 
 **Sprint 2: Foundational Development**
 
--   **Project Structure:**
-    -   Define the directory structure for the backend (Node.js/Express) and frontend (React) components.
--   **Database Design:**
-    -   Plan the database schema for storing user data, booking details, etc.
-    -   Set up MongoDB for data storage.
--   **Authentication:**
-    -   Implement user authentication using JWT (JSON Web Tokens).
+- **Project Structure:**
+  - Define the directory structure for the backend (Node.js/Express) and frontend (React) components.
+- **Database Design:**
+  - Plan the database schema for storing user data, booking details, etc.
+  - Set up MongoDB for data storage.
+- **Authentication:**
+  - Implement user authentication using JWT (JSON Web Tokens).
 
 **Sprint 3: Feature Development**
 
--   **Frontend Development:**
-    -   Develop the user interface with React components.
-    -   Implement responsive design for a better user experience.
--   **Backend Development:**
-    -   Set up Express routes for handling booking requests.
-    -   Connect with MongoDB for data retrieval and storage.
+- **Frontend Development:**
+  - Develop the user interface with React components.
+  - Implement responsive design for a better user experience.
+- **Backend Development:**
+  - Set up Express routes for handling booking requests.
+  - Connect with MongoDB for data retrieval and storage.
 
 **Sprint 4: Testing and Deployment**
 
--   **Testing:**
-    -   Write unit tests and integration tests for both frontend and backend components.
--   **Deployment:**
-    -   Choose a cloud platform (Heroku) for deployment.
-    -   Set up a staging environment for testing before production deployment.
-    -   Deploy the application to a staging environment.
-    -   Conduct thorough testing in the staging environment.
-    -   Address any issues identified in testing.
-    -   Finalise deployment to the production environment.
+- **Testing:**
+  - Write unit tests and integration tests for both frontend and backend components.
+- **Deployment:**
+  - Choose a cloud platform (Heroku) for deployment.
+  - Set up a staging environment for testing before production deployment.
+  - Deploy the application to a staging environment.
+  - Conduct thorough testing in the staging environment.
+  - Address any issues identified in testing.
+  - Finalise deployment to the production environment.
 
 [Back to contents](#contents)
 
@@ -725,7 +722,6 @@ In summary, our Trello-centric approach combined simplicity and efficiency, offe
 Screenshots of our Trello board can be found organised in date order in the Trello-screenshots directory within this repo.
 
 Please also view the Trello board live here: https://trello.com/b/WOdwJ7cn/t3a2
-
 
 [Back to contents](#contents)
 
