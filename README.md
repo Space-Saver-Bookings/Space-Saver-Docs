@@ -29,7 +29,7 @@
     -   [Final user stories](#final-user-stories)
 -   [Wireframes](#wireframes)
     -   [Flow and navigation](#flow-and-navigation)
-    -   [Final Wireframes](#final-wireframes)
+    -   [High fidelity wireframes](#high-fidelity-wireframes)
 -   [Planning methodology](#planning-methodology)
     -   [Trello screenshots](#trello-screenshots)
 
@@ -484,13 +484,13 @@ Employee Persona 2: Part-time/Casual
 
 Even before discussions and decisions were made to the user stories along with the features and functionality of the application, a prototype wireframe was created as a way to have a quick peek into the future of the final application.
 
-<img src="docs/wifreframes/prototype/img/login-page.jpg" alt="Desktop Login Page Prototype" title="Desktop Login Page Prototype" />
+<img src="docs/wireframes/prototype/img/login-page.jpg" alt="Desktop Login Page Prototype" title="Desktop Login Page Prototype" />
 
 It gave us a rough idea on the applications layout and functionality which gives us a better understanding of what is to come with user experience and gave birth to the main features of the application.
 
-<img src="docs/wifreframes/prototype/img/space-room-view.jpg" alt="Desktop Space-Room View" title="Desktop Space-Room View" />
+<img src="docs/wireframes/prototype/img/space-room-view.jpg" alt="Desktop Space-Room View" title="Desktop Space-Room View" />
 
-To view the initial prototype in more detail, please have a look here: [Initial Prototype](https://github.com/Space-Saver-Bookings/Space-Saver-Docs/blob/main/docs/wifreframes/prototype/Space_Finder_Prototype.pdf)
+To view the initial prototype in more detail, please have a look here: [Initial Prototype](https://github.com/Space-Saver-Bookings/Space-Saver-Docs/blob/main/docs/wireframes/prototype/Space_Finder_Prototype.pdf)
 
 [Back to contents](#contents)
 
@@ -498,7 +498,7 @@ To view the initial prototype in more detail, please have a look here: [Initial 
 
 During our discussions on figuring out the applications features and functionality, a rough prototype more focused on the layout and flow of data of the application was created.
 
-<img src="docs/wifreframes/prototype/img/19-11-2023-DesignPrototype.png" alt="Desktop Space-Room View" title="Desktop Space-Room View" />
+<img src="docs/wireframes/prototype/img/19-11-2023-DesignPrototype.png" alt="Desktop Space-Room View" title="Desktop Space-Room View" />
 
 It helped us visualise what exactly we were hoping to achieve with the features and how it works functionally, but also taking into consideration the users experience when navigating around the app.
 
@@ -506,19 +506,73 @@ From this prototype alone, we have decided on a sidebar that acts as the menu na
 
 [Back to contents](#contents)
 
-### Desktop - Sign Up/ Landing Page
+### Low fidelity wireframes
+
+In our exploration of conceptualising the visual aspects and user interactions for our application, we embarked on the initial phase of low-fidelity wireframing. During this stage, our primary focus was on creating skeletal representations that outlined the fundamental structure and placement of key elements within the application.
+
+The low-fidelity wireframes served as a rudimentary blueprint, emphasising basic layouts and rough sketches of the user interface. It was instrumental in laying the groundwork for subsequent design decisions, providing a clear visualisation of the spatial arrangement of various components. This phase allowed us to swiftly iterate through design concepts, fostering a collaborative understanding of the application's core structure.
+
+Key considerations during this stage encompassed the placement of essential features, the hierarchy of information, and the overall navigation flow. The simplicity of the low-fidelity wireframes facilitated quick adjustments and refinements, ensuring a solid foundation for the more detailed stages of the design process.
+
+
+#### Desktop - Sign Up/ Landing Page
+
+<img src="docs/wireframes/low-fidelity/1.low_fidelity_desktop_login.png" alt="Desktop Login Page Wireframe" title="Desktop Login Page Wireframe" />
+
+#### Desktop - Home Page
+
+<img src="docs/wireframes/low-fidelity/2.low_fidelity_desktop_home.png" alt="Home Page Wireframe" title="Home Page Wireframe" />
+
+#### Desktop - Spaces Page
+
+<img src="docs/wireframes/low-fidelity/3.low_fidelity_desktop_spaces.png" alt="Spaces Page Wireframe" title="Spaces Page Wireframe" />
+
+#### Tablet - Home Page
+
+<img src="docs/wireframes/low-fidelity/4.low_fidelity_tablet_home.png" alt="Home Page Wireframe" title="Home Page Wireframe" />
+
+#### Tablet - Bookings Page
+
+<img src="docs/wireframes/low-fidelity/5.low_fidelity_tablet_bookings.png" alt="Bookings Page Wireframe" title="Bookings Page Wireframe" />
+
+#### Tablet - Individual space page
+
+<img src="docs/wireframes/low-fidelity/6.low_fidelity_tablet_space_view.png" alt="Bookings Page Wireframe" title="Bookings Page Wireframe" />
+
+#### Tablet - Individual space page
+
+<img src="docs/wireframes/low-fidelity/6.low_fidelity_tablet_space_view.png" alt="Bookings Page Wireframe" title="Bookings Page Wireframe" />
+
+#### Mobile - Home page
+
+<img src="docs/wireframes/low-fidelity/7.low_fidelity_mobile_home.png" alt="Home Page Wireframe" title="Home Page Wireframe" />
+
+#### Mobile - Bookings page
+
+<img src="docs/wireframes/low-fidelity/8.low_fidelity_mobile_bookings.png" alt="Bookings Page Wireframe" title="Bookings Page Wireframe" />
+
+#### Mobile - Rooms page
+
+<img src="docs/wireframes/low-fidelity/9.low_fidelity_mobile_rooms.png" alt="Rooms Page Wireframe" title="Rooms Page Wireframe" />
 
 [Back to contents](#contents)
 
-<!-- leaving this link here as an example of how we can add it later
 
-<img src="docs/wireframes/wireframe.jpg" alt="Desktop Login Page Wireframe" title="Desktop Login Page Wireframe" /> -->
+### High fidelity wireframes
 
-### Final Wireframes
+Building upon the insights gained from the low-fidelity wireframes, we progressed into the creation of high-fidelity versions that delved into the finer details of the application's visual aesthetics and interactive elements.
+
+The high-fidelity wireframes represented a more polished rendition of the user interface, incorporating refined graphics, precise typography, and realistic representations of interactive elements. This phase aimed to bring the envisioned user experience to life, providing stakeholders with a comprehensive view of the application's final look and feel.
+
+The high-fidelity wireframes served as a pivotal bridge between conceptualisation and implementation, guiding the development team with a clear roadmap for transforming the design vision into a fully functional and aesthetically pleasing application.
+
+<!-- #### Desktop - Home page
+
+<img src="docs/wireframes/high-fidelity/image.png" alt="Home Page Wireframe" title="Home Page Wireframe" /> -->
 
 [Back to contents](#contents)
 
-Wireframes can also be viewed in higher definition via Figma: <!-- Link here -->
+Wireframes can also be viewed in higher definition via Figma: [figma.com/SpaceSaver-High-Fidelity-Wireframe](https://www.figma.com/file/WnAqfuX8gkWsz8wTlGJHOd/SpaceSaver-High-Fidelity-Wireframe?type=design&node-id=0%3A1&mode=design&t=h7h3BL6Y63C0Dryl-1)
 
 ### Flow and navigation
 
