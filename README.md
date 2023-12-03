@@ -706,8 +706,26 @@ The development of the app can be segmented into the following phases:
 
 ### Trello Screenshots
 
+Our project approach, utilising Trello, commenced with a basic layout that we later tailored to suit our needs. Initially, we kept it simple, adding columns like 'Notes' and 'Updates' to ensure easy communication and documentation for the entire team.
+
+<img src="docs/trello-screenshots/13-11-23/1.2023-11-13.jpg" alt="Initial Trello Board" title="Initial Trello Board" />
+
+As our project progressed, we embraced agile practices by incorporating specific columns for Sprints, allowing us to plan and execute in focused phases. This adjustment enabled us to adapt quickly to changes and maintain a steady development pace.
+
+<img src="docs/trello-screenshots/28-11-23/1.28-11-23.png" alt="Sprints Trello Board" title="Sprints Trello Board" />
+
+To enhance collaboration and maintain quality, we introduced a 'Review' column. Positioned before the final 'Finished' stage, this step allowed team members to provide constructive feedback, ensuring a thorough evaluation of each other's work. This 'Review' phase became crucial for upholding high standards and sharing knowledge within the team.
+
+<img src="docs/trello-screenshots/03-12-23/2.03-12-23.png" alt="Review Trello Board" title="Review Trello Board" />
+
+In summary, our Trello-centric approach combined simplicity and efficiency, offering a flexible and collaborative framework. It guided our project seamlessly from start to finish, ensuring precision and excellence in every stage.
+
+<img src="docs/trello-screenshots/03-12-23/4.03-12-23.png" alt="Review Trello Board" title="Review Trello Board" />
+
 Screenshots of our Trello board can be found organised in date order in the Trello-screenshots directory within this repo.
+
 Please also view the Trello board live here: https://trello.com/b/WOdwJ7cn/t3a2
+
 
 [Back to contents](#contents)
 
