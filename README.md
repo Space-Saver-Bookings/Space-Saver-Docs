@@ -565,17 +565,79 @@ The high-fidelity wireframes represented a more polished rendition of the user i
 
 The high-fidelity wireframes served as a pivotal bridge between conceptualisation and implementation, guiding the development team with a clear roadmap for transforming the design vision into a fully functional and aesthetically pleasing application.
 
-<!-- #### Desktop - Home page
+#### Desktop
 
-<img src="docs/wireframes/high-fidelity/image.png" alt="Home Page Wireframe" title="Home Page Wireframe" /> -->
+![loading state](docs/wireframes/high-fidelity/Desktop/Loading%20State%20-%20Desktop.png)
+
+![home layout](docs/wireframes/high-fidelity/Desktop/Home%20layout%20breakdown%20-%20Desktop.png)
+
+![home main content](docs/wireframes/high-fidelity/Desktop/Home%20main%20content%20breakdown%20-%20Desktop.png)
+
+![home hover & clicked](docs/wireframes/high-fidelity/Desktop/Home%20hover%20&%20clicked%20states%20-%20Desktop.png)
+
+![bookings content & layout](docs/wireframes/high-fidelity/Desktop/Bookings%20content%20&%20layout%20breakdown%20-%20Desktop.png)
+
+![bookings hover & clicked](docs/wireframes/high-fidelity/Desktop/Bookings%20hover%20&%20clicked%20states%20-%20Desktop.png)
+
+![bookings](docs/wireframes/high-fidelity/Desktop/Bookings%20add%20new%20booking%20modal%20-%20Desktop.png)
+
+![bookings](docs/wireframes/high-fidelity/Desktop/Bookings%20details%20view%20modal%20-%20Desktop.png)
+
+![bookings](docs/wireframes/high-fidelity/Desktop/Bookings%20details%20edit%20modal%20-%20Desktop.png)
+
+![spaces](docs/wireframes/high-fidelity/Desktop/Spaces%20joined%20view%20-%20Desktop.png)
+
+![spaces](docs/wireframes/high-fidelity/Desktop/Spaces%20join%20modal%20-%20Desktop.png)
+
+![spaces](docs/wireframes/high-fidelity/Desktop/Spaces%20owned%20view%20-%20Desktop.png)
+
+![spaces](docs/wireframes/high-fidelity/Desktop/Spaces%20create%20new%20space%20modal%20-%20Desktop.png)
+
+![space](docs/wireframes/high-fidelity/Desktop/Space%20content%20&%20layout%20breakdown%20-%20Desktop.png)
+
+![space](docs/wireframes/high-fidelity/Desktop/Space%20hover%20&%20clicked%20states%20-%20Desktop.png)
+
+![space](docs/wireframes/high-fidelity/Desktop/Space%20share%20access%20code%20modal%20-%20Desktop.png)
+
+![space](docs/wireframes/high-fidelity/Desktop/Space%20edit%20access%20code%20modal%20-%20Desktop.png)
+
+![space](docs/wireframes/high-fidelity/Desktop/Space%20edit%20capacity%20modal%20-%20Desktop.png)
+
+![space](docs/wireframes/high-fidelity/Desktop/Space%20edit%20description%20modal%20-%20Desktop.png)
+
+![space](docs/wireframes/high-fidelity/Desktop/Space%20add%20new%20room%20modal%20-%20Desktop.png)
+
+![space](docs/wireframes/high-fidelity/Desktop/Space%20users%20modal%20-%20Desktop.png)
+
+![space](docs/wireframes/high-fidelity/Desktop/Space%20add%20new%20user%20modal%20-%20Desktop.png)
+
+![rooms](docs/wireframes/high-fidelity/Desktop/Rooms%20booked%20view%20-%20Desktop.png)
+
+![rooms](docs/wireframes/high-fidelity/Desktop/Rooms%20space%20view%20-%20Desktop.png)
+
+![rooms](docs/wireframes/high-fidelity/Desktop/Rooms%20space%20owner%20view%20-%20Desktop.png)
+
+![rooms](docs/wireframes/high-fidelity/Desktop/Rooms%20create%20new%20room%20modal%20-%20Desktop.png)
+
+![room](docs/wireframes/high-fidelity/Desktop/Room%20content%20&%20layout%20breakdown%20with%20in%20use%20view%20-%20Desktop.png)
+
+![room](docs/wireframes/high-fidelity/Desktop/Room%20available%20now%20view%20-%20Desktop.png)
+
+![room](docs/wireframes/high-fidelity/Desktop/Room%20current%20users%20modal%20-%20Desktop.png)
+
+![room](docs/wireframes/high-fidelity/Desktop/Room%20invite%20user%20modal%20-%20Desktop.png)
+
+![room](docs/wireframes/high-fidelity/Desktop/Room%20admin%20view%20-%20Desktop.png)
+
+![room](docs/wireframes/high-fidelity/Desktop/Room%20edit%20room%20modal%20-%20Desktop.png)
+
+![settings](docs/wireframes/high-fidelity/Desktop/Settings%20content%20&%20layout%20breakdown%20-%20Desktop.png)
+
+![settings](docs/wireframes/high-fidelity/Desktop/Settings%20confirmation%20modal%20-%20Desktop.png)
 
 [Back to contents](#contents)
 
 Wireframes can also be viewed in higher definition via Figma: [figma.com/SpaceSaver-High-Fidelity-Wireframe](https://www.figma.com/file/WnAqfuX8gkWsz8wTlGJHOd/SpaceSaver-High-Fidelity-Wireframe?type=design&node-id=0%3A1&mode=design&t=h7h3BL6Y63C0Dryl-1)
-
-### Flow and navigation
-
-[Back to contents](#contents)
 
 ---
 
