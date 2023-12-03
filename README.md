@@ -663,6 +663,42 @@ The high-fidelity wireframes served as a pivotal bridge between conceptualisatio
 
 ![settings](docs/wireframes/high-fidelity/Tablet/Settings%20-%20Tablet.png)
 
+#### Mobile
+
+![loading state](docs/wireframes/high-fidelity/Mobile/Loading%20state%20-%20Mobile.png)
+
+![navigation](docs/wireframes/high-fidelity/Mobile/Navigation%20-%20Mobile.png)
+
+![home](docs/wireframes/high-fidelity/Mobile/Home%20scrolled%20view%20-%20Mobile.png)
+
+![bookings](docs/wireframes/high-fidelity/Mobile/Bookings%20regular%20view%20-%20Mobile.png)
+
+![bookings](docs/wireframes/high-fidelity/Mobile/Bookings%20modal%20-%20Mobile.png)
+
+![spaces](docs/wireframes/high-fidelity/Mobile/Spaces%20regular%20view%20-%20Mobile.png)
+
+![spaces](docs/wireframes/high-fidelity/Mobile/Spaces%20scrolled%20view%20-%20Mobile.png)
+
+![spaces](docs/wireframes/high-fidelity/Mobile/Spaces%20join%20space%20modal%20-%20Mobile.png)
+
+![space](docs/wireframes/high-fidelity/Mobile/Space%20regular%20view%20-%20Mobile.png)
+
+![space](docs/wireframes/high-fidelity/Mobile/Space%20scrolled%20view%20-%20Mobile.png)
+
+![space](docs/wireframes/high-fidelity/Mobile/Space%20scrolled%20view%20clicked%20state%20-%20Mobile.png)
+
+![rooms](docs/wireframes/high-fidelity/Mobile/Rooms%20regular%20view%20-%20Mobile.png)
+
+![rooms](docs/wireframes/high-fidelity/Mobile/Rooms%20scrolled%20view%20-%20Mobile.png)
+
+![room](docs/wireframes/high-fidelity/Mobile/Room%20regular%20view%20-%20Mobile.png)
+
+![room](docs/wireframes/high-fidelity/Mobile/Room%20scrolled%20with%20in%20use%20view%20-%20Mobile.png)
+
+![room](docs/wireframes/high-fidelity/Mobile/Room%20scrolled%20with%20available%20view%20-%20Mobile.png)
+
+![settings](docs/wireframes/high-fidelity/Mobile/Settings%20-%20Mobile.png)
+
 [Back to contents](#contents)
 
 Wireframes can also be viewed in higher definition via Figma: [figma.com/SpaceSaver-High-Fidelity-Wireframe](https://www.figma.com/file/WnAqfuX8gkWsz8wTlGJHOd/SpaceSaver-High-Fidelity-Wireframe?type=design&node-id=0%3A1&mode=design&t=h7h3BL6Y63C0Dryl-1)
