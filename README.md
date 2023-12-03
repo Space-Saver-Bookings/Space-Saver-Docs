@@ -20,7 +20,6 @@
 -   [Application Description](#application-description)
     -   [Purpose](#purpose)
     -   [Features and Functionality ](#features-and-functionality)
-    <!-- - [Functionality](#functionality) -->
     -   [Target audience](#target-audience)
     -   [Tech stack](#tech-stack)
 -   [Data Flow Diagram (DFD)](#data-flow-diagram-dfd)
@@ -30,7 +29,7 @@
     -   [Final user stories](#final-user-stories)
 -   [Wireframes](#wireframes)
     -   [Flow and navigation](#flow-and-navigation)
-    -   [Iterations](#iterations)
+    -   [Final Wireframes](#final-wireframes)
 -   [Planning methodology](#planning-methodology)
     -   [Trello screenshots](#trello-screenshots)
 
@@ -204,9 +203,13 @@ Make a smooth transition into your expanded workspace with SpaceSaver, where sim
 -   React.js with React Query, & React Hook Form
 -   Tailwind & Material-ui for styling
 
-**Back-end**: Node with ExpressJS
+**Back-end**:
 
-**Database**: MongoDB with Mongoose
+-   Node with ExpressJS
+
+**Database**:
+
+-   MongoDB with Mongoose
 
 **Deployment**:
 
@@ -218,11 +221,21 @@ Make a smooth transition into your expanded workspace with SpaceSaver, where sim
 -   Jest
 -   SuperTest
 
-**Project-management tools**: Trello, Discord
+**Project-management tools**:
 
-**Utilities**: Draw.io, Figma
+-   Trello
+-   Discord
 
-**DevOps**: Git, Github, VS Code
+**Utilities**:
+
+-   Draw.io
+-   Figma
+
+**DevOps**:
+
+-   Git
+-   Github
+-   VS Code
 
 [Back to contents](#contents)
 
@@ -250,16 +263,15 @@ For a visual representation of these iterations, refer to the following images:
 
 ## Application Architecture Diagram (AAD)
 
-The SpaceSaver app is made up of three components: a front-end, back-end and database.
+The SpaceSaver app is structured with three key components: a front-end, back-end, and a database. In our high-level Application Architecture Diagram (AAD), we provide a bird's-eye view of each of these components, offering a broad understanding of how they fit together. On the flip side, the low-level AAD zooms in to dissect the detailed interactions between each component, shedding light on the intricacies of their relationships.
 
 ### High Level AAD
 
-<img src="docs/architecture/2._High_Level_-_Application_Architecture_Diagram.jpg" alt="High Level Application Architecture Diagram" title="High Level Application Architecture Diagram" />
+<img src="docs/architecture/2._High_Level_-_Application_Architecture_Diagram.png" alt="High Level Application Architecture Diagram" title="High Level Application Architecture Diagram" />
 
 ### Low Level AAD (Development Framework)
 
 <img src="docs/architecture/1._Low_Level_-_Application_Architecture_Diagram.jpg" alt="Low Level Application Architecture Diagram" title="Low Level Application Architecture Diagram" />
-
 
 [Back to contents](#contents)
 
@@ -480,6 +492,8 @@ It gave us a rough idea on the applications layout and functionality which gives
 
 To view the initial prototype in more detail, please have a look here: [Initial Prototype](https://github.com/Space-Saver-Bookings/Space-Saver-Docs/blob/main/docs/wifreframes/prototype/Space_Finder_Prototype.pdf)
 
+[Back to contents](#contents)
+
 ### Prototyping continued
 
 During our discussions on figuring out the applications features and functionality, a rough prototype more focused on the layout and flow of data of the application was created.
@@ -510,11 +524,6 @@ Wireframes can also be viewed in higher definition via Figma: <!-- Link here -->
 
 [Back to contents](#contents)
 
-<!-- ### Iterations
-
-TODO Hey Ed, just letting you know, the iteration is more implied with the flow of this section of the docs. Let me know what you think :)
-
-[Back to contents](#contents) -->
 
 ---
 
