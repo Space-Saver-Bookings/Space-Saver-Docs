@@ -635,6 +635,34 @@ The high-fidelity wireframes served as a pivotal bridge between conceptualisatio
 
 ![settings](docs/wireframes/high-fidelity/Desktop/Settings%20confirmation%20modal%20-%20Desktop.png)
 
+#### Tablet
+
+![loading state tablet](docs/wireframes/high-fidelity/Tablet/Loading%20state%20-%20Tablet.png)
+
+![home](docs/wireframes/high-fidelity/Tablet/Home%20content%20&%20layout%20breakdown%20-%20Tablet.png)
+
+![bookings](docs/wireframes/high-fidelity/Tablet/Bookings%20content%20&%20layout%20-%20Tablet.png)
+
+![bookings](docs/wireframes/high-fidelity/Tablet/Bookings%20add%20new%20booking%20modal%20-%20Tablet.png)
+
+![spaces](docs/wireframes/high-fidelity/Tablet/Spaces%20content%20&%20layout%20-%20Tablet.png)
+
+![spaces](docs/wireframes/high-fidelity/Tablet/Spaces%20join%20space%20modal%20-%20Tablet.png)
+
+![space](docs/wireframes/high-fidelity/Tablet/Space%20content%20&%20layout%20-%20Tablet.png)
+
+![space](docs/wireframes/high-fidelity/Tablet/Space%20clicked%20state%20-%20Tablet.png)
+
+![rooms](docs/wireframes/high-fidelity/Tablet/Rooms%20content%20&%20layout%20-%20Tablet.png)
+
+![rooms](docs/wireframes/high-fidelity/Tablet/Rooms%20toggle%20state%20-%20Tablet.png)
+
+![room](docs/wireframes/high-fidelity/Tablet/Room%20content%20&%20layout%20with%20in%20use%20view%20-%20Tablet.png)
+
+![room](docs/wireframes/high-fidelity/Tablet/Room%20content%20&%20layout%20with%20available%20view%20-%20Tablet.png)
+
+![settings](docs/wireframes/high-fidelity/Tablet/Settings%20-%20Tablet.png)
+
 [Back to contents](#contents)
 
 Wireframes can also be viewed in higher definition via Figma: [figma.com/SpaceSaver-High-Fidelity-Wireframe](https://www.figma.com/file/WnAqfuX8gkWsz8wTlGJHOd/SpaceSaver-High-Fidelity-Wireframe?type=design&node-id=0%3A1&mode=design&t=h7h3BL6Y63C0Dryl-1)
