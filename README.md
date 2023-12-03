@@ -699,9 +699,9 @@ The high-fidelity wireframes served as a pivotal bridge between conceptualisatio
 
 ![settings](docs/wireframes/high-fidelity/Mobile/Settings%20-%20Mobile.png)
 
-[Back to contents](#contents)
-
 Wireframes can also be viewed in higher definition via Figma: [figma.com/SpaceSaver-High-Fidelity-Wireframe](https://www.figma.com/file/WnAqfuX8gkWsz8wTlGJHOd/SpaceSaver-High-Fidelity-Wireframe?type=design&node-id=0%3A1&mode=design&t=h7h3BL6Y63C0Dryl-1)
+
+[Back to contents](#contents)
 
 ---
 
