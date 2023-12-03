@@ -667,6 +667,8 @@ The high-fidelity wireframes served as a pivotal bridge between conceptualisatio
 
 ![loading state](docs/wireframes/high-fidelity/Mobile/Loading%20state%20-%20Mobile.png)
 
+![home](docs/wireframes/high-fidelity/Mobile/Home%20regular%20view%20-%20Mobile.png)
+
 ![navigation](docs/wireframes/high-fidelity/Mobile/Navigation%20-%20Mobile.png)
 
 ![home](docs/wireframes/high-fidelity/Mobile/Home%20scrolled%20view%20-%20Mobile.png)
