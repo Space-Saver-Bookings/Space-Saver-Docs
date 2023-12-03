@@ -413,27 +413,28 @@ Acceptance Criteria:
 
 #### Combined User Stories
 
-Too many personas led to confusion, so they were combined the personas into 3 main types of users we remade the user stories to suit
-Manager Persona
+Persona were combined into 3 main types of users:
 
-User Story 1:
+##### Manager Persona
+
+**User Story 1:**
 As the General Manager, I want a comprehensive office space management tool that streamlines the booking process, allowing for increased efficiency and optimal resource allocation. This includes features for space availability signalling and real-time data insights.
 
-User Story 2:
+**User Story 2:**
 As the General Manager, I need an enhanced booking system with calendar functionality to improve team organisation. This will ensure that team members have clear visibility into booking details, locations, and times, facilitating better communication and coordination.
 
-User Story 3:
+**User Story 3:**
 As the General Manager, I want an automated notification system within the booking tool to inform team members about booking details. This feature will help in reducing manual communication efforts and enhancing overall team communication.
 
-User Story 4:
+**User Story 4:**
 As the General Manager, I require a user-friendly app that provides real-time insights into resource usage. This will empower me to make informed decisions for optimal resource allocation and improve overall office operations.
 
-Employee Persona 1: Full-time Tech Enthusiast
+##### Employee Persona 1: Full-time Tech Enthusiast
 
-User Story 1:
+**User Story 1:**
 As a Tech Support Specialist, I want an integrated and user-friendly system with advanced tech features for quick space availability checks. This will help me efficiently plan and utilise office spaces based on real-time availability.
 
-User Story 2:
+**User Story 2:**
 As a Tech Support Specialist, I need a streamlined and tech-efficient booking process to maximise my full-time productivity. This includes features that allow for quick and hassle-free room or desk bookings.
 
 [Back to contents](#contents)
