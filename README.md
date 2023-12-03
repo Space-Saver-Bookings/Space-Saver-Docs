@@ -124,7 +124,7 @@ SpaceSaver allows all users access to information of other users within a space 
 ##### User information and invitation
 
 -   All users have access to view other users in the respective spaces they joined and rooms they're booked in.
--   Non-Admin users are only allowed to invite other users to a room. NOTE: what about spaces? See trello update.
+-   Non-Admin users are only allowed to invite other users to a room.
 
 ##### User management
 
