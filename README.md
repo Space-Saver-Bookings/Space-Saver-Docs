@@ -6,7 +6,7 @@
 
 ### Client:
 
-- Deployed Production: [SpaceSaver Client](https://space-saver-client.netlify.com)
+- Deployed Production: [SpaceSaver Client](https://space-saver.netlify.app/)
 
 ### Server:
 
